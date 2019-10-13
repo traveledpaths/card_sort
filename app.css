@@ -1,0 +1,33 @@
+.card {
+    background: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    float: left;
+}
+
+.card-bin {
+    background: purple;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+}
+
+.card-bins {
+    height: 300px;
+    width: 100%;
+    float: none;
+}
+
+.card-stack {
+    height: 300px;
+    width: 100%;
+    float: none;
+}
+
+#report-button {
+    float: none;
+}
