@@ -1,5 +1,10 @@
+/* 
+#9DE7D7 
+#68D0EC
+*/
+
 .card {
-    background: green;
+    background: #68D0EC;
     color: white;
     width: 100px;
     height: 100px;
@@ -8,7 +13,7 @@
 }
 
 .card-bin {
-    background: purple;
+    background: #9DE7D7;
     color: white;
     width: 200px;
     height: 200px;
@@ -29,5 +34,5 @@
 }
 
 #report-button {
-    float: none;
+    margin-left: 25px;
 }
