@@ -18,15 +18,15 @@ function createCardStack() {
     // cards = cardNames;
 
     for (let i = 0; i < cards.length; ++i) {
-        let cardDiv = `<div id='card_${i}' class='card'  draggable='true' droppable='false' ondragstart='drag(event, this)'>${cards[i]}</div>`;
+        let cardDiv = `<div id='card_${i}' class='card'  draggable='true' droppable='false' onclick='cardClick(this)' ondragstart='drag(event, this)'>${cards[i]}</div>`;
         cardStack.innerHTML += cardDiv;
 
-        //document.getElementById(`card_${i}`).style.zIndex = z_hide;
+        document.getElementById(`card_${i}`).style.zIndex = z_hide;
     }
 
-    //onclick='cardClick(this)'
-    //currentCard = document.getElementById('card_0');
-    //currentCard.style.zIndex = z_show;
+    //
+    currentCard = document.getElementById('card_0');
+    currentCard.style.zIndex = z_show;
 
 }
 
